@@ -13,6 +13,8 @@ opts.PATHS.MODEL = opts.PATHS.CHECKPOINT_PATTERN:format(SETTINGS.test_epoch_num)
 print("model load path:")
 print(opts.PATHS.MODEL)
 
+loaded = model_load(opts.PATHS.MODEL, opts)
+
 meta = {
 	opts = opts,
 	training_meta = loaded.meta,
