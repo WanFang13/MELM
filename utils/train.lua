@@ -78,7 +78,7 @@ for epoch = (previous_epoch or 0) + 1, opts.NUM_EPOCHS do
 	batchIdx_global = nil
 
 	tic = torch.tic()
-	for batchIdx = 1, 100 do --batch_loader:getNumBatches() -1 do
+	for batchIdx = 1, batch_loader:getNumBatches() -1 do
 		
 		batchIdx_global = batchIdx
 		scale_batches = batch_loader:forward()[1]
@@ -117,7 +117,7 @@ for epoch = (previous_epoch or 0) + 1, opts.NUM_EPOCHS do
 		model:evaluate()
 		scores, labels, rois, costs, outputs, corlocs, corlocs_all = {},{},{},{},{},{},{}
 		tic_val = torch.tic()
-		for batchIdx = 1, 200 do --batch_loader:getNumBatches() - 1 do
+		for batchIdx = 1, batch_loader:getNumBatches() - 1 do
 			scale_batches = batch_loader:forward()[1]
 			scale0_rois = scale_batches[1][2]:clone()
 			scale_outputs, scale_scores, scale_costs = {}, {}, {}
