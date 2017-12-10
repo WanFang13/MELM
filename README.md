@@ -51,7 +51,7 @@
  4. Train and test
  
     ```bash
-    sh Run_DeepMELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
+    sh Run_MELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
     ```
     
 ## Acknowledgements
