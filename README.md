@@ -8,7 +8,7 @@
 
 1. install the dependencies
     ```bash
-    luarocks install hdf5 matio protobuf rapidjson loadcaffe xml
+    luarocks install hdf5 matio protobuf rapidjson loadcaffe xml
     ```
     
 2. Download dataset and proposals 
@@ -39,8 +39,8 @@
     
  4. train and test
  
-     ```bash
-    sh Run_DeepMELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
+    ```bash
+    sh Run_DeepMELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
     ```
     
 ## Acknowledgements & Notes
