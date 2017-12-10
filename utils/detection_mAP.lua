@@ -1,10 +1,10 @@
 -- settings for path and models
-dofile('settings.lua')
-dofile('preprocess.lua')
+dofile('utils/settings.lua')
+dofile('utils/preprocess.lua')
 
-dofile('opts.lua')
-dofile('util.lua')
-dofile('dataset.lua')
+dofile('utils/opts.lua')
+dofile('utils/util.lua')
+dofile('utils/dataset.lua')
 threads = require 'threads'
 print('Starting...')
 local MATLAB = assert((#sys.execute('which matlab') > 0 and 'matlab -nodisplay -r') or (#sys.execute('which octave') > 0 and 'octave --eval'), 'matlab or octave not found in PATH')
