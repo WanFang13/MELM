@@ -11,7 +11,7 @@
     luarocks install hdf5 matio protobuf rapidjson loadcaffe xml
     ```
     
-2. Download dataset and proposals 
+2. Download dataset, proposals and ImageNet pre-trained model
 
     Download VOC2007 from:
     http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
