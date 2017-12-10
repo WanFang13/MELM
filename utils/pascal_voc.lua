@@ -238,10 +238,8 @@ return {
 			end
 		}
 
-		--------------------add by wf 2017-9-29 ------------
 		local temp___ = paths.concat('data/results/%s')
-		OUT = temp___:format(WF_SETTINGS.RESULT_SAVE_FOLDER)
-		------------------------------------------------------
+		OUT = temp___:format(SETTINGS.RESULT_SAVE_FOLDER)
 
 		os.execute(string.format('rm -rf "%s/results"', OUT))
 		os.execute(string.format('mkdir -p "%s/results/%s/Main"', OUT, VOCYEAR))
