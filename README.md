@@ -51,6 +51,7 @@
  4. Train and test
  
     ```bash
+    cd $DIR
     sh Run_MELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
     ```
     
