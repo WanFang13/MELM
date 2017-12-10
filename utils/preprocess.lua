@@ -94,9 +94,9 @@ function VOC()
 end
 
 print('Preprocessing VOC')
---VOC()
+VOC()
 print('VOC has been processed')
 print('Preprocessing VGG Nets')
---VGGF()
+VGGF()
 --VGG16()
 
