@@ -30,8 +30,9 @@
     $MELM/data/datasets/VOCdevkit_2007/VOCcode
     $MELM/data/datasets/VOCdevkit_2007/VOC2007
     $MELM/data/datasets/VOCdevkit_2007/...
-    $MELM/data/datasets/models/
-    $MELM/data/datasets/results/
+    $MELM/data/datasets/proposals/
+    $MELM/data/models/
+    $MELM/data/results/
     ``` 
     
 3. Install functions
