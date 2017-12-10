@@ -24,7 +24,7 @@
     http://www.robots.ox.ac.uk/~vgg/software/deep_eval/releases/bvlc/VGG_CNN_F.caffemodel
     https://gist.githubusercontent.com/ksimonyan/a32c9063ec8e1118221a/raw/6a3b8af023bae65669a4ceccd7331a5e7767aa4e/VGG_CNN_F_deploy.prototxt
     
-    The data folder have the following structure:
+    The data folder has the following structure:
     ```bash
     $MELM/data/datasets/VOCdevkit_2007/
     $MELM/data/datasets/VOCdevkit_2007/VOCcode
