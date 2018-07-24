@@ -18,6 +18,7 @@ function FixProb:updateOutput(input)
 			print(input[{1,ind}])			
 			input[{1,ind}] = eps
 		end
+		if input[{1,ind}] > 1 then input[{1,ind}] = 1-eps*eps end
 	end
 	
 	self.output=input:clone()
