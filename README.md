@@ -1,3 +1,6 @@
+## New
+A simplified version of MELM with context in PyTorch is released [here](https://github.com/vasgaowei/pytorch_MELM).
+
 ## Prerequisites
 
 * Linux (tested on ubuntu 14.04LTS)
