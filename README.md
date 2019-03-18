@@ -1,5 +1,5 @@
 ## New
-A simplified version of MELM with context in PyTorch is released [here](https://github.com/vasgaowei/pytorch_MELM).
+A simplified version of MELM with context in PyTorch is implemented [here](https://github.com/vasgaowei/pytorch_MELM) by [vasgaowei](https://github.com/vasgaowei).
 
 ## Prerequisites
 
