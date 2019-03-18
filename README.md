@@ -1,5 +1,5 @@
 ## New
-A simplified version of MELM with context in PyTorch is implemented [here](https://github.com/vasgaowei/pytorch_MELM) by [vasgaowei](https://github.com/vasgaowei).
+A simplified version of MELM with context in PyTorch is released \[[here]\](https://github.com/vasgaowei/pytorch_MELM).
 
 ## Prerequisites
 
@@ -57,32 +57,7 @@ A simplified version of MELM with context in PyTorch is implemented [here](https
     cd $DIR
     sh Run_MELM.sh 0 VOC2007 VGGF SSW 0.1 None melm
     ```
-
-## If you find MELM useful and use this code, please cite our paper:
-```
-@inproceedings{wan2018min,
-  title={Min-Entropy Latent Model for Weakly Supervised Object Detection},
-  author={Wan, Fang and Wei, Pengxu and Jiao, Jianbin and Han, Zhenjun and Ye, Qixiang},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={1297--1306},
-  year={2018}
-}
-```
-```
-@article{wan2019Pami,
-  author    = {Fang Wan and 
-               Pengxu Wei and
-               Jianbin Jiao and
-               Zhenjun Han and 
-               Qixiang Ye},
-  title     = {Min-Entropy Latent Model for Weakly Supervised Object Detection},
-  journal   = {{IEEE} Trans. Pattern Anal. Mach. Intell.},
-  volume       = {DOI:10.1109/TPAMI.2019.2898858},
-  year      = {2019}
-}
-```
-
-
+    
 ## Acknowledgements
 
 This work would not have been possible without prior work: Vadim Kantorov's [contextlocnet](https://github.com/vadimkantorov), Spyros Gidaris's [LocNet](http://github.com/gidariss/LocNet), Sergey Zagoruyko's [loadcaffe](http://github.com/szagoruyko/loadcaffe), Facebook FAIR's [fbnn/Optim.lua](http://github.com/facebook/fbnn/blob/master/fbnn/Optim.lua).
